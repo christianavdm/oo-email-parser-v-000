@@ -5,6 +5,10 @@
 
 class EmailParser
   def initialize (email_string)
+    @email_string = email_string
+  end
+  
+  def parse
     
   end
   
