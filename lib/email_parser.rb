@@ -9,7 +9,7 @@ class EmailParser
   end
   
   def parse
-    @email_string.split(", ")
+    @email_string.split(/[,]\s|\s/)
   end
   
 end
